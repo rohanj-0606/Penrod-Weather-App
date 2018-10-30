@@ -1,0 +1,318 @@
+body {
+	background: #000000;
+}
+
+.slds-page-header {
+	background: #353854;
+}
+
+.slds-text-heading--label {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.slds-gutters {
+	margin: 0px;
+}
+
+.slds-gutters .slds-col {
+	padding: 0px;
+}
+
+.slds-grid {
+	width: 100%;
+}
+
+.home-icon {
+	padding-bottom: 5px;
+	float: left;
+}
+
+.slds-grid--frame {
+	width: 100%;
+	height: 100%;
+}
+
+#slds-col2 {
+	position: relative;
+	top: 75px;
+}
+
+#slds-col3 {
+	position: relative;
+	top: 75px;
+}
+
+#slds-col4 {
+	position: relative;
+	top: 75px;
+}
+
+.data-width {
+	width: 100%;
+}
+
+#col1 {
+	background-image: url("../images/chicago.jpg");
+	background-size: 100% 60%;
+	background-repeat: no-repeat;
+	margin: 15px;
+}
+
+#col2 {
+	background-image: url("../images/milwaukee.jpg");
+	background-size: 100% 60%;
+	background-repeat: no-repeat;
+	margin: 15px;
+}
+
+#col3 {
+	background-image: url("../images/dallas.jpg");
+	background-size: 100% 60%;
+	background-repeat: no-repeat;
+	margin: 15px;
+}
+
+#col4 {
+	background-image: url("../images/minneapolis.jpg");
+	background-size: 100% 60%;
+	background-repeat: no-repeat;
+	margin: 15px;
+}
+
+#temp {
+	font-family: "Salesforce Sans", monospace, sans-serif;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	left: 57.55%;
+	top: 39%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-transform: uppercase;
+}
+
+#humidity-div {
+	font-family: "Salesforce Sans", monospace, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	position: absolute;
+	left: 57%;
+	top: 36%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-transform: uppercase;
+}
+
+#min_temp-div {
+	font-family: "Salesforce Sans", monospace, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	position: absolute;
+	left: 57%;
+	top: 26%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-transform: uppercase;
+}
+
+#max_temp-div {
+	font-family: "Salesforce Sans", monospace, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	position: absolute;
+	left: 57%;
+	top: 49%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.city-icon {
+	position: relative;
+	top: 5px;
+	left: 227px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+.temperature {
+	position: absolute;
+	top: 66%;
+	height: 15%;
+	width: 23.2%;
+	background-color: #3c8ed2;
+}
+
+.min_temp {
+	position: absolute;
+	top: 84%;
+	height: 17%;
+	width: 23.2%;
+	background-color: #3c8ed2;
+}
+
+.max_temp {
+	position: absolute;
+	top: 91%;
+	height: 15%;
+	width: 23.2%;
+	background-color: #3c8ed2;
+}
+
+.humidity {
+	position: absolute;
+	top: 75%;
+	height: 15%;
+	width: 23.2%;
+	background-color: #3c8ed2;
+}
+
+footer {
+	background: #353854;
+	border-top: 0.5px solid #ffffff;
+}
+
+footer p {
+	color: white;
+	font-size: 18px;
+	font-family: "Salesforce Sans", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+	#main-container {
+		flex-direction: column;
+	}
+	#col1 {
+		background-size: 100% 90%;
+	}
+	#col2 {
+		background-size: 100% 90%;
+	}
+	#col3 {
+		background-size: 100% 90%;
+	}
+	#col4 {
+		background-size: 100% 90%;
+	}
+	#temp1 {
+		width: 25%;
+		height: 8%;
+		top: 26%;
+	}
+	.temp1-data {
+		font-size: 18px;
+		left: 57.55%;
+		top: 39%;
+	}
+	#humidity1 {
+		top: 26%;
+		width: 30%;
+		height: 8%;
+		right: 44%;
+	}
+	#min-temp1 {
+		top: 26%;
+		height: 8%;
+		right: 21%;
+		width: 32%;
+	}
+	#max-temp1 {
+		top: 26%;
+		width: 22%;
+		height: 8%;
+		right: 2%;
+	}
+	#temp,
+	#humidity-div,
+	#min_temp-div,
+	#max_temp-div {
+		font-size: 14px;
+	}
+	#temp2 {
+		top: 51%;
+		width: 25%;
+		height: 8%;
+	}
+	#humidity2 {
+		top: 51%;
+		width: 30%;
+		height: 8%;
+		right: 44%;
+	}
+	#min-temp2 {
+		top: 51%;
+		height: 8%;
+		right: 21%;
+		width: 32%;
+	}
+	#max-temp2 {
+		top: 51%;
+		width: 22%;
+		height: 8%;
+		right: 2%;
+	}
+	#temp3 {
+		top: 76%;
+		width: 25%;
+		height: 8%;
+	}
+	#humidity3 {
+		top: 76%;
+		width: 30%;
+		height: 8%;
+		right: 44%;
+	}
+	#min-temp3 {
+		top: 76%;
+		height: 8%;
+		right: 21%;
+		width: 32%;
+	}
+	#max-temp3 {
+		top: 76%;
+		width: 22%;
+		height: 8%;
+		right: 2%;
+	}
+	#temp4 {
+		top: 100%;
+		width: 25%;
+		height: 7%;
+	}
+	#humidity4 {
+		top: 100%;
+		width: 30%;
+		height: 7%;
+		right: 44%;
+	}
+	#min-temp4 {
+		top: 100%;
+		height: 7%;
+		right: 21%;
+		width: 32%;
+	}
+	#max-temp4 {
+		top: 100%;
+		width: 22%;
+		height: 7%;
+		right: 2%;
+	}
+	#humidity-div {
+		top: 40%;
+	}
+	#min_temp-div {
+		top: 40%;
+		left: 57%;
+	}
+	#max_temp-div {
+		top: 42%;
+		left: 48%;
+	}
+}
