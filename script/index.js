@@ -2,7 +2,6 @@ const appKey = "e864f94433a436afb7f1b0cef96179bc";
 
 function findWeatherDetails() {
 	var cities = ["chicago", "milwaukee", "dallas", "minneapolis"];
-	var weatherData = [];
 	for (var i = 0; i < cities.length; i++) {
 		let searchLink = "https://api.openweathermap.org/data/2.5/weather?q=" + cities[i] + "&appid=" + appKey;
 		httpRequestAsync(searchLink, theResponse, "col" + (i + 1));
