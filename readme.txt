@@ -1,4 +1,4 @@
-This is a weather application which displays weather for four cities - Chicago, Milwaukee, Dallas & Minneapolis where Penrod offices are located.
+This is a weather application which displays weather for four cities - Chicago, Milwaukee, Dallas & Minneapolis.
 This application fetches weather data for different cities from OpenWeatherMap.org API using javascript.
 Lightning Design System CSS framework is used along with HTML, CSS, jQuery technologies.
 
