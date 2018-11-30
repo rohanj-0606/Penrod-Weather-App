@@ -15,7 +15,7 @@ function theResponse(response, col) {
 	let max = document.getElementById(col).getElementsByClassName("max_temp")[0];
 	let jsonObject = JSON.parse(response);
 
-	temperature.innerHTML = "<div id='temp'>" + "Temperature: " + parseInt(jsonObject.main.temp - 273) + "°C" +"</div>";
+	temperature.innerHTML = "<div id='temp'>" + "Temperature: " + parseInt(jsonObject.main.temp - 273) + "°C" + "</div>";
 	humidity.innerHTML = "<div id='humidity-div'>" + "Humidity: " + jsonObject.main.humidity + "%" + "</div>";
 	min.innerHTML = "<div class='data-width' id='min_temp-div'>" + "Min Temperature: " + parseInt(jsonObject.main.temp_min - 273) + "°C" + "</div>";
 	max.innerHTML = "<div class='data-width' id='max_temp-div'>" + "Max Temperature: " + parseInt(jsonObject.main.temp_max - 273) + "°C" + "</div>";

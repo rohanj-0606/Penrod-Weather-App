@@ -190,21 +190,25 @@ footer p {
 		flex-direction: column;
 	}
 	#col1 {
+		background-image: url("../images/chicago_mobile.png");
 		background-size: 100% 90%;
 	}
 	#col2 {
+		background-image: url("../images/milwaukee_mobile.png");
 		background-size: 100% 90%;
 	}
 	#col3 {
+		background-image: url("../images/dallas_mobile.png");
 		background-size: 100% 90%;
 	}
 	#col4 {
+		background-image: url("../images/minneapolis_mobile.png");
 		background-size: 100% 90%;
 	}
 	#temp1 {
 		width: 25%;
 		height: 8%;
-		top: 26%;
+		top: 31%;
 	}
 	.temp1-data {
 		font-size: 18px;
@@ -212,22 +216,22 @@ footer p {
 		top: 39%;
 	}
 	#humidity1 {
-		top: 26%;
+		top: 31%;
 		width: 30%;
 		height: 8%;
 		right: 44%;
 	}
 	#min-temp1 {
-		top: 26%;
+		top: 31%;
 		height: 8%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp1 {
-		top: 26%;
+		top: 31%;
 		width: 22%;
 		height: 8%;
-		right: 2%;
+		right: 0%;
 	}
 	#temp,
 	#humidity-div,
@@ -236,73 +240,73 @@ footer p {
 		font-size: 14px;
 	}
 	#temp2 {
-		top: 51%;
+		top: 57%;
 		width: 25%;
 		height: 8%;
 	}
 	#humidity2 {
-		top: 51%;
+		top: 57%;
 		width: 30%;
 		height: 8%;
 		right: 44%;
 	}
 	#min-temp2 {
-		top: 51%;
+		top: 57%;
 		height: 8%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp2 {
-		top: 51%;
+		top: 57%;
 		width: 22%;
 		height: 8%;
-		right: 2%;
+		right: 0%;
 	}
 	#temp3 {
-		top: 76%;
+		top: 83%;
 		width: 25%;
 		height: 8%;
 	}
 	#humidity3 {
-		top: 76%;
+		top: 83%;
 		width: 30%;
 		height: 8%;
 		right: 44%;
 	}
 	#min-temp3 {
-		top: 76%;
+		top: 83%;
 		height: 8%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp3 {
-		top: 76%;
+		top: 83%;
 		width: 22%;
 		height: 8%;
-		right: 2%;
+		right: 0%;
 	}
 	#temp4 {
-		top: 100%;
+		top: 107%;
 		width: 25%;
 		height: 7%;
 	}
 	#humidity4 {
-		top: 100%;
+		top: 107%;
 		width: 30%;
 		height: 7%;
 		right: 44%;
 	}
 	#min-temp4 {
-		top: 100%;
+		top: 107%;
 		height: 7%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp4 {
-		top: 100%;
+		top: 107%;
 		width: 22%;
 		height: 7%;
-		right: 2%;
+		right: 0%;
 	}
 	#humidity-div {
 		top: 40%;
