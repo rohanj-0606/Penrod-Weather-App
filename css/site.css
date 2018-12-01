@@ -208,7 +208,7 @@ footer p {
 	#temp1 {
 		width: 25%;
 		height: 8%;
-		top: 31%;
+		top: 30%;
 	}
 	.temp1-data {
 		font-size: 18px;
@@ -216,19 +216,19 @@ footer p {
 		top: 39%;
 	}
 	#humidity1 {
-		top: 31%;
+		top: 30%;
 		width: 30%;
 		height: 8%;
 		right: 44%;
 	}
 	#min-temp1 {
-		top: 31%;
+		top: 30%;
 		height: 8%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp1 {
-		top: 31%;
+		top: 30%;
 		width: 22%;
 		height: 8%;
 		right: 0%;
@@ -240,47 +240,47 @@ footer p {
 		font-size: 14px;
 	}
 	#temp2 {
-		top: 57%;
+		top: 55%;
 		width: 25%;
 		height: 8%;
 	}
 	#humidity2 {
-		top: 57%;
+		top: 55%;
 		width: 30%;
 		height: 8%;
 		right: 44%;
 	}
 	#min-temp2 {
-		top: 57%;
+		top: 55%;
 		height: 8%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp2 {
-		top: 57%;
+		top: 55%;
 		width: 22%;
 		height: 8%;
 		right: 0%;
 	}
 	#temp3 {
-		top: 83%;
+		top: 81%;
 		width: 25%;
 		height: 8%;
 	}
 	#humidity3 {
-		top: 83%;
+		top: 81%;
 		width: 30%;
 		height: 8%;
 		right: 44%;
 	}
 	#min-temp3 {
-		top: 83%;
+		top: 81%;
 		height: 8%;
 		right: 21%;
 		width: 32%;
 	}
 	#max-temp3 {
-		top: 83%;
+		top: 81%;
 		width: 22%;
 		height: 8%;
 		right: 0%;
