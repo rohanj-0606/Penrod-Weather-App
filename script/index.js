@@ -4,21 +4,21 @@ function findWeatherDetails() {
 	var cities = ["chicago", "milwaukee", "dallas", "minneapolis"];
 	for (var i = 0; i < cities.length; i++) {
 		let searchLink = "https://api.openweathermap.org/data/2.5/weather?q=" + cities[i] + "&appid=" + appKey;
-		httpRequestAsync(searchLink, GetWeather, "col" + (i + 1));
+		httpRequestAsync(searchLink, GetWeather, (i + 1));
 	};
 }
 
 function GetWeather(response, col) {
-	let temperature = document.getElementById(col).getElementsByClassName("temperature")[0];
-	let humidity = document.getElementById(col).getElementsByClassName("humidity")[0];
-	let min = document.getElementById(col).getElementsByClassName("min_temp")[0];
-	let max = document.getElementById(col).getElementsByClassName("max_temp")[0];
+	let temperature = $("#col" + col).find(".temperature");
+	let humidity = $("#col" + col).find(".humidity");
+	let min = $("#col" + col).find(".min_temp");
+	let max = $("#col" + col).find(".max_temp");
 	let jsonObject = JSON.parse(response);
 
-	temperature.innerHTML = "<div id='temp' class='city-data'>" + "Temperature: " + parseInt(jsonObject.main.temp - 273) + "°C" + "</div>";
-	humidity.innerHTML = "<div id='humidity-div' class='city-data'>" + "Humidity: " + jsonObject.main.humidity + "%" + "</div>";
-	min.innerHTML = "<div class='data-width city-data' id='min_temp-div'>" + "Min Temperature: " + parseInt(jsonObject.main.temp_min - 273) + "°C" + "</div>";
-	max.innerHTML = "<div class='data-width city-data' id='max_temp-div'>" + "Max Temperature: " + parseInt(jsonObject.main.temp_max - 273) + "°C" + "</div>";
+	temperature.html("<div id='temp' class='city-data'>" + "Temperature: " + parseInt(jsonObject.main.temp - 273) + "°C" + "</div>");
+	humidity.html("<div id='humidity-div' class='city-data'>" + "Humidity: " + jsonObject.main.humidity + "%" + "</div>");
+	min.html("<div class='data-width city-data' id='min_temp-div'>" + "Min Temperature: " + parseInt(jsonObject.main.temp_min - 273) + "°C" + "</div>");
+	max.html("<div class='data-width city-data' id='max_temp-div'>" + "Max Temperature: " + parseInt(jsonObject.main.temp_max - 273) + "°C" + "</div>");
 }
 
 function httpRequestAsync(url, callback, col) {
