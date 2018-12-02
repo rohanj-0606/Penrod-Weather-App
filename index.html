@@ -1,74 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Weather Application</title>
-      <link rel="stylesheet" type="text/css" href="css/salesforce-lightning-design-system.css">
-      <link rel="stylesheet" href="css/site.css">
-   </head>
-   <body onload="findWeatherDetails()" >
-      <div class="slds-page-header">
-            <a href="index.html"> <img class="slds-icon slds-icon--medium home-icon" src="assets/icons/utility/home.svg"></a>
-         <p class=" slds-text-align_center slds-text-heading--label">Weather Base Station </p>
-      </div>
-      <div id="main-container" class="slds-grid slds-grid--frame">
-         <div id="col1" class="slds-col">
-            <div class="slds-grid slds-grid_vertical">
-               <div id="temp1" class="slds-col temperature city-blk city-blk-mobile">
-               </div>
-               <div id="humidity1" class="slds-col humidity city-blk city-blk-mobile">
-               </div>
-               <div id="min-temp1" class="slds-col min_temp city-blk city-blk-mobile">
-               </div>
-               <div id="max-temp1" class="slds-col max_temp city-blk city-blk-mobile">
-               </div>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Weather Application</title>
+   <link rel="stylesheet" type="text/css" href="css/salesforce-lightning-design-system.css">
+   <link rel="stylesheet" href="css/site.css">
+</head>
+<body onload="findWeatherDetails()">
+   <div class="slds-page-header">
+      <a href="index.html"> <img class="slds-icon slds-icon--medium home-icon" src="assets/icons/utility/home.svg"></a>
+      <p class=" slds-text-align_center slds-text-heading--label">Weather Base Station </p>
+   </div>
+   <div id="main-container" class="slds-grid slds-grid--frame">
+      <div id="col1" class="slds-col">
+         <div class="slds-grid slds-grid_vertical">
+            <div id="temp1" class="slds-col temperature city-blk city-blk-mobile">
             </div>
-         </div>
-         <div id="col2"  class="slds-col ">
-            <div class="slds-grid slds-grid_vertical">
-               <div id="temp2" class="slds-col temperature city-blk city-blk-mobile">
-               </div>
-               <div id="humidity2" class="slds-col humidity city-blk city-blk-mobile">
-               </div>
-               <div id="min-temp2" class="slds-col min_temp city-blk city-blk-mobile">
-               </div>
-               <div id="max-temp2" class="slds-col max_temp city-blk city-blk-mobile">
-               </div>
+            <div id="humidity1" class="slds-col humidity city-blk city-blk-mobile">
             </div>
-         </div>
-         <div id="col3" class="slds-col ">
-            <div class="slds-grid slds-grid_vertical">
-               <div id="temp3" class="slds-col temperature city-blk city-blk-mobile">
-               </div>
-               <div id="humidity3" class="slds-col humidity city-blk city-blk-mobile">
-               </div>
-               <div id="min-temp3" class="slds-col min_temp city-blk city-blk-mobile">
-               </div>
-               <div id="max-temp3" class="slds-col max_temp city-blk city-blk-mobile">
-               </div>
+            <div id="min-temp1" class="slds-col min_temp city-blk city-blk-mobile">
             </div>
-         </div>
-         <div id="col4"  class="slds-col">
-            <div class="slds-grid slds-grid_vertical">
-               <div id="temp4" class="slds-col temperature city-blk city-blk-mobile">
-               </div>
-               <div id="humidity4" class="slds-col humidity city-blk city-blk-mobile">
-               </div>
-               <div id="min-temp4" class="slds-col min_temp city-blk city-blk-mobile">
-               </div>
-               <div id="max-temp4" class="slds-col max_temp city-blk city-blk-mobile">
-               </div>
+            <div id="max-temp1" class="slds-col max_temp city-blk city-blk-mobile">
             </div>
          </div>
       </div>
-      <footer class="slds-p-around_large">
-         <div class="slds-grid slds-grid_align-spread">
-            <p class="slds-col">Weather Application</p>
-            <p class="slds-col">&copy; Rohan Jain</p>
+      <div id="col2" class="slds-col ">
+         <div class="slds-grid slds-grid_vertical">
+            <div id="temp2" class="slds-col temperature city-blk city-blk-mobile">
+            </div>
+            <div id="humidity2" class="slds-col humidity city-blk city-blk-mobile">
+            </div>
+            <div id="min-temp2" class="slds-col min_temp city-blk city-blk-mobile">
+            </div>
+            <div id="max-temp2" class="slds-col max_temp city-blk city-blk-mobile">
+            </div>
          </div>
-      </footer>
-      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-      <script src="script/index.js"></script>
-   </body>
+      </div>
+      <div id="col3" class="slds-col ">
+         <div class="slds-grid slds-grid_vertical">
+            <div id="temp3" class="slds-col temperature city-blk city-blk-mobile">
+            </div>
+            <div id="humidity3" class="slds-col humidity city-blk city-blk-mobile">
+            </div>
+            <div id="min-temp3" class="slds-col min_temp city-blk city-blk-mobile">
+            </div>
+            <div id="max-temp3" class="slds-col max_temp city-blk city-blk-mobile">
+            </div>
+         </div>
+      </div>
+      <div id="col4" class="slds-col">
+         <div class="slds-grid slds-grid_vertical">
+            <div id="temp4" class="slds-col temperature city-blk city-blk-mobile">
+            </div>
+            <div id="humidity4" class="slds-col humidity city-blk city-blk-mobile">
+            </div>
+            <div id="min-temp4" class="slds-col min_temp city-blk city-blk-mobile">
+            </div>
+            <div id="max-temp4" class="slds-col max_temp city-blk city-blk-mobile">
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="slds-p-around_large">
+      <div class="slds-grid slds-grid_align-spread">
+         <p class="slds-col">Weather Application</p>
+         <p class="slds-col">&copy; Rohan Jain</p>
+      </div>
+   </footer>
+   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+   <script src="script/index.js"></script>
+</body>
+
 </html>
