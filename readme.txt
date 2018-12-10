@@ -1,3 +1,5 @@
+The whole idea behind this project is to understand, learn & use Salesforce Lightning Design System Framework!
+
 This is a weather application which displays weather for four cities - Chicago, Milwaukee, Dallas & Minneapolis.
 This application fetches weather data for different cities from OpenWeatherMap.org API using javascript.
 Salesforce Lightning Design System CSS framework is used along with HTML, CSS, jQuery technologies.
