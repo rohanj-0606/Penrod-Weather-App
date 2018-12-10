@@ -19,3 +19,6 @@ Folder Structure:
     
 5.script
     It contains the javascript file which fetches data from OpenWeatherMap API.
+    
+6.screenshot
+    It contains the screenshots of the weather application.
